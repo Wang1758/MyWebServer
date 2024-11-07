@@ -14,17 +14,21 @@
 
 class Log {
 public:
+    // 设置允许写入的等级、路径、后缀、队列大小，如果队列大小为0，则为同步日志
     void init(int level, const char* path = "./log", 
                 const char* suffix =".log",
                 int maxQueueCapacity = 1024);
-
+    // 获取单例对象，懒汉模式，局部静态变量法
     static Log* Instance();
+    // 异步日志的写线程函数，将调用静态对象的写线程执行函数
     static void FlushLogThread();
 
     void write(int level, const char *format,...);
+    // 唤醒阻塞队列消费者，开始写日志，并刷新fp_缓冲区
     void flush();
 
     int GetLevel();
+    // 设置当前日志等级为level
     void SetLevel(int level);
     bool IsOpen() { return isOpen_; }
     
@@ -32,6 +36,7 @@ private:
     Log();
     void AppendLogLevelTitle_(int level);
     virtual ~Log();
+    // 写线程执行函数
     void AsyncWrite_();
 
 private:
