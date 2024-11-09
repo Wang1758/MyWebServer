@@ -30,8 +30,8 @@ void Log::flush() {
     fflush(fp_);
 }
 
-void Log::init(int level = 1, const char* path = "./log", 
-    const char* suffix = ".log", int maxQueueSize=1024) {
+void Log::init(int level, const char* path, 
+    const char* suffix, int maxQueueSize) {
     isOpen_ = true;
     level_ = level;
     if(maxQueueSize > 0) {

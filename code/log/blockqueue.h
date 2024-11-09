@@ -70,8 +70,8 @@ BlockDeque<T>::~BlockDeque() {
 template<class T>
 void BlockDeque<T>::Close() {
     {
-        std::lock_guard<mutex> locker(mtx_);
-        dep_.clear();
+        std::lock_guard<std::mutex> locker(mtx_);
+        deq_.clear();
         isClose_ = true;
     }
     condProducer_.notify_all();
