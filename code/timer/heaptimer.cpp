@@ -25,7 +25,7 @@ void HeapTimer::siftup_(size_t i) {
 }
 
 bool HeapTimer::siftdown_(size_t index, size_t n) {
-    if (index < 0 || index >= heap_.size() || n < 0 || n >= heap_.size()){
+    if (index < 0 || index >= heap_.size() || n < 0 || n > heap_.size()){
         throw std::invalid_argument("index or j 不在时间堆限定范围内");
     }
     size_t i = index;

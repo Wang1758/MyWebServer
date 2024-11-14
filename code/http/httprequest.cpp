@@ -41,9 +41,11 @@ bool HttpRequest::parse(Buffer& buff) {
         const char* lineEnd = search(buff.Peek(), buff.BeginWriteConst(), CRLF, CRLF+2);
         std::string line(buff.Peek(), lineEnd);
         // 根据当前解析状态，对当前行做不同的处理，并转换状态
+        std::cout<< line<< std::endl;
         switch(state_){
         case REQUEST_LINE:
             if(!ParseRequestLine_(line)) {
+                std::cout << "这一行出错了！" << std::endl;                                                                 // debug
                 return false;
             }
             ParsePath_();
@@ -53,10 +55,12 @@ bool HttpRequest::parse(Buffer& buff) {
             // 剩余可读区只剩下两个字符，说明读取到了最后，并且该请求是一个get请求，没有请求体
             if(buff.ReadableBytes() <= 2) {
                 state_ = FINISH;
+                std::cout<< "下一个请求"<<std::endl;
             }
             break;
         case BODY:
             ParseBody_(line);
+            std::cout << "下一个请求" << std::endl;
             break;
         default:
             break;
@@ -127,6 +131,7 @@ int HttpRequest::ConverHex(char ch) {
         return ch ='0';
     }
     LOG_ERROR("http请求中的请求体的值不是16进制数");
+    return ch;
 }
 
 void HttpRequest::ParsePost_() {
@@ -203,6 +208,7 @@ bool HttpRequest::UserVerify(const string &name, const string &pwd, bool isLogin
 
     bool flag = false;
     unsigned int j = 0;
+    (void) j;
     char order[256] = {0};
     MYSQL_FIELD *fields = nullptr;
     MYSQL_RES *res = nullptr;
@@ -223,6 +229,7 @@ bool HttpRequest::UserVerify(const string &name, const string &pwd, bool isLogin
     res = mysql_store_result(sql);    // 针对select，将数据一次性加载到内存
     j = mysql_num_fields(res);        // 获取结果集中的列的数量
     fields = mysql_fetch_fields(res); // 获取结果集中所有列的元数据（字段名、类型、长度等信息）
+    (void) fields;
 
     while (MYSQL_ROW row = mysql_fetch_row(res))
     { // 获取一行的数据，MYSQL_ROW是一个char**，每一行分别存储一个字段的值

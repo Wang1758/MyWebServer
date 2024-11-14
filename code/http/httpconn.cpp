@@ -54,15 +54,13 @@ int HttpConn::GetPort() const {
 
 ssize_t HttpConn::read(int* saveErrno) {
     ssize_t len = -1;
-    ssize_t totalLen = 0;   // 总的读取字节数
     do{
         len = readBuff_.ReadFd(fd_, saveErrno);
         if(len<=0) {
             break;
         }
-        totalLen += len;
     } while(isET);  // 如果是边沿触发模式，继续读取直到数据读完
-    return totalLen;
+    return len;
 }
 
 bool HttpConn::process(){
@@ -100,14 +98,12 @@ bool HttpConn::process(){
 
 ssize_t HttpConn::write(int *saveErrno){
     ssize_t len = -1;
-    ssize_t totalLen = 0;
     do{
         len = writev(fd_, iov_, iovCnt_);
         if (len <= 0){
             *saveErrno = errno;
             break;
         }
-        totalLen += len;
         if (iov_[0].iov_len + iov_[1].iov_len == 0){    // 传输结束
             break;
         }else if (static_cast<size_t>(len) > iov_[0].iov_len){  // 第二个缓冲区还有数据没传输
@@ -124,5 +120,5 @@ ssize_t HttpConn::write(int *saveErrno){
             writeBuff_.Retrieve(len);
         }
     } while (isET || ToWriteBytes() > 10240);   // 如果是ET模式或者剩余传输的文件太大，继续传输
-    return totalLen;
+    return len;
 }

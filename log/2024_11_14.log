@@ -1,0 +1,241 @@
+2024-11-14 10:01:08.184800 [info] : =========== Server init ===========
+2024-11-14 10:01:08.184825 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:01:08.184830 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:01:08.184833 [info] : LogSys level: 1
+2024-11-14 10:01:08.184836 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:01:08.184916 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:01:08.185057 [info] : ========== Server start ==========
+2024-11-14 10:23:39.045496 [info] : =========== Server init ===========
+2024-11-14 10:23:39.045505 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:23:39.045507 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:23:39.045508 [info] : LogSys level: 1
+2024-11-14 10:23:39.045510 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:23:39.045511 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:23:39.045513 [info] : ========== Server start ==========
+2024-11-14 10:23:55.493612 [info] : Client[21](127.0.0.1:33503) in, userCount:1
+2024-11-14 10:26:54.496308 [info] : =========== Server init ===========
+2024-11-14 10:26:54.496332 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:26:54.496337 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:26:54.496340 [info] : LogSys level: 1
+2024-11-14 10:26:54.496342 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:26:54.496426 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:26:54.496433 [info] : ========== Server start ==========
+2024-11-14 10:26:58.321988 [info] : Client[21](127.0.0.1:57563) in, userCount:1
+2024-11-14 10:26:58.322593 [info] : Client[21] in!
+2024-11-14 10:26:58.361509 [info] : Client[22](127.0.0.1:60123) in, userCount:2
+2024-11-14 10:26:58.361580 [info] : Client[22] in!
+2024-11-14 10:26:58.363050 [info] : Client[23](127.0.0.1:62683) in, userCount:3
+2024-11-14 10:26:58.363120 [info] : Client[23] in!
+2024-11-14 10:26:58.364452 [info] : Client[24](127.0.0.1:220) in, userCount:4
+2024-11-14 10:26:58.364502 [info] : Client[24] in!
+2024-11-14 10:26:58.364537 [info] : Client[25](127.0.0.1:732) in, userCount:5
+2024-11-14 10:26:58.364546 [info] : Client[25] in!
+2024-11-14 10:26:58.364557 [info] : Client[26](127.0.0.1:1244) in, userCount:6
+2024-11-14 10:26:58.364564 [info] : Client[26] in!
+2024-11-14 10:27:57.088766 [info] : client[24] quit!
+2024-11-14 10:27:57.089231 [info] : Client[24](127.0.0.1:220) quit, userCount:5
+2024-11-14 10:28:13.280595 [info] : Client[24](127.0.0.1:43194) in, userCount:6
+2024-11-14 10:28:13.280663 [info] : Client[24] in!
+2024-11-14 10:28:28.957081 [info] : Verify name:wjj pwd:wjj
+2024-11-14 10:28:29.128750 [error]: RequestLine Error
+2024-11-14 10:28:29.129246 [info] : client[26] quit!
+2024-11-14 10:28:29.129439 [info] : Client[26](127.0.0.1:1244) quit, userCount:5
+2024-11-14 10:28:29.192754 [info] : Client[26](127.0.0.1:6296) in, userCount:6
+2024-11-14 10:28:29.192823 [info] : Client[26] in!
+2024-11-14 10:28:45.136794 [info] : Verify name:wjj pwd:wjj
+2024-11-14 10:28:45.151299 [error]: RequestLine Error
+2024-11-14 10:28:45.151654 [info] : client[22] quit!
+2024-11-14 10:28:45.151851 [info] : Client[22](127.0.0.1:60123) quit, userCount:5
+2024-11-14 10:28:45.225963 [info] : Client[22](127.0.0.1:6892) in, userCount:6
+2024-11-14 10:28:45.226035 [info] : Client[22] in!
+2024-11-14 10:29:03.783352 [info] : Verify name:wjj pwd:123
+2024-11-14 10:29:03.795318 [error]: RequestLine Error
+2024-11-14 10:29:03.795825 [info] : client[21] quit!
+2024-11-14 10:29:03.795908 [info] : Client[21](127.0.0.1:57563) quit, userCount:5
+2024-11-14 10:29:13.734517 [info] : Verify name:wjj pwd:123
+2024-11-14 10:29:13.745095 [error]: RequestLine Error
+2024-11-14 10:29:13.745565 [info] : client[26] quit!
+2024-11-14 10:29:13.745737 [info] : Client[26](127.0.0.1:6296) quit, userCount:4
+2024-11-14 10:29:13.791331 [info] : Client[21](127.0.0.1:31384) in, userCount:5
+2024-11-14 10:29:13.791378 [info] : Client[21] in!
+2024-11-14 10:29:13.791387 [info] : Client[26](127.0.0.1:33944) in, userCount:6
+2024-11-14 10:29:13.791392 [info] : Client[26] in!
+2024-11-14 10:29:28.328446 [info] : client[26] quit!
+2024-11-14 10:29:28.328567 [info] : Client[26](127.0.0.1:33944) quit, userCount:5
+2024-11-14 10:29:28.328577 [info] : client[25] quit!
+2024-11-14 10:29:28.328604 [info] : Client[25](127.0.0.1:732) quit, userCount:4
+2024-11-14 10:29:28.328610 [info] : client[21] quit!
+2024-11-14 10:29:28.328635 [info] : Client[21](127.0.0.1:31384) quit, userCount:3
+2024-11-14 10:29:28.328641 [info] : client[23] quit!
+2024-11-14 10:29:28.328669 [info] : Client[23](127.0.0.1:62683) quit, userCount:2
+2024-11-14 10:29:28.328674 [info] : client[24] quit!
+2024-11-14 10:29:28.328700 [info] : Client[24](127.0.0.1:43194) quit, userCount:1
+2024-11-14 10:29:28.328705 [info] : client[22] quit!
+2024-11-14 10:29:28.328728 [info] : Client[22](127.0.0.1:6892) quit, userCount:0
+2024-11-14 10:42:14.550935 [info] : =========== Server init ===========
+2024-11-14 10:42:14.550961 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:42:14.550966 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:42:14.550969 [info] : LogSys level: 1
+2024-11-14 10:42:14.550972 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:42:14.550975 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:42:14.551060 [info] : ========== Server start ==========
+2024-11-14 10:42:23.186568 [info] : Client[21](127.0.0.1:62609) in, userCount:1
+2024-11-14 10:42:23.186656 [info] : Client[21] in!
+2024-11-14 10:42:25.962054 [info] : Client[22](127.0.0.1:658) in, userCount:2
+2024-11-14 10:42:25.962160 [info] : Client[22] in!
+2024-11-14 10:42:25.962178 [info] : Client[23](127.0.0.1:1170) in, userCount:3
+2024-11-14 10:42:25.962195 [info] : Client[23] in!
+2024-11-14 10:42:25.962303 [info] : Client[24](127.0.0.1:2194) in, userCount:4
+2024-11-14 10:42:25.962318 [info] : Client[24] in!
+2024-11-14 10:42:25.962405 [info] : Client[25](127.0.0.1:4754) in, userCount:5
+2024-11-14 10:42:25.962438 [info] : Client[25] in!
+2024-11-14 10:42:25.963614 [info] : Client[26](127.0.0.1:7826) in, userCount:6
+2024-11-14 10:42:25.963660 [info] : Client[26] in!
+2024-11-14 10:42:26.077147 [info] : client[26] quit!
+2024-11-14 10:42:26.077285 [info] : Client[26](127.0.0.1:7826) quit, userCount:5
+2024-11-14 10:43:26.038207 [info] : client[22] quit!
+2024-11-14 10:43:26.038356 [info] : Client[22](127.0.0.1:658) quit, userCount:4
+2024-11-14 10:43:26.038376 [info] : client[21] quit!
+2024-11-14 10:43:26.038392 [info] : Client[21](127.0.0.1:62609) quit, userCount:3
+2024-11-14 10:43:26.038407 [info] : client[25] quit!
+2024-11-14 10:43:26.038421 [info] : Client[25](127.0.0.1:4754) quit, userCount:2
+2024-11-14 10:43:26.038423 [info] : client[23] quit!
+2024-11-14 10:43:26.038434 [info] : Client[23](127.0.0.1:1170) quit, userCount:1
+2024-11-14 10:43:26.038436 [info] : client[24] quit!
+2024-11-14 10:43:26.038444 [info] : Client[24](127.0.0.1:2194) quit, userCount:0
+2024-11-14 10:43:26.076998 [info] : client[26] quit!
+2024-11-14 10:47:49.935163 [info] : =========== Server init ===========
+2024-11-14 10:47:49.935207 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:47:49.935297 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:47:49.935303 [info] : LogSys level: 1
+2024-11-14 10:47:49.935306 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:47:49.935309 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:47:49.935478 [info] : ========== Server start ==========
+2024-11-14 10:47:57.533884 [info] : Client[21](127.0.0.1:54916) in, userCount:1
+2024-11-14 10:47:57.534225 [info] : Client[21] in!
+2024-11-14 10:48:00.006958 [info] : Client[22](127.0.0.1:57476) in, userCount:2
+2024-11-14 10:48:00.007103 [info] : Client[22] in!
+2024-11-14 10:48:00.007127 [info] : Client[23](127.0.0.1:60548) in, userCount:3
+2024-11-14 10:48:00.007136 [info] : Client[23] in!
+2024-11-14 10:48:00.007746 [info] : Client[24](127.0.0.1:62084) in, userCount:4
+2024-11-14 10:48:00.007835 [info] : Client[24] in!
+2024-11-14 10:48:00.007936 [info] : Client[25](127.0.0.1:65156) in, userCount:5
+2024-11-14 10:48:00.007953 [info] : Client[25] in!
+2024-11-14 10:48:00.007960 [info] : Client[26](127.0.0.1:1669) in, userCount:6
+2024-11-14 10:48:00.007963 [info] : Client[26] in!
+2024-11-14 10:48:00.134434 [info] : client[26] quit!
+2024-11-14 10:48:00.138175 [info] : Client[26](127.0.0.1:1669) quit, userCount:5
+2024-11-14 10:48:10.759504 [info] : Client[26](127.0.0.1:2796) in, userCount:6
+2024-11-14 10:48:10.760696 [info] : Client[26] in!
+2024-11-14 10:48:15.174474 [info] : client[22] quit!
+2024-11-14 10:48:15.175235 [info] : Client[22](127.0.0.1:57476) quit, userCount:5
+2024-11-14 10:48:20.442349 [info] : Verify name:wjj pwd:wjj
+2024-11-14 10:48:20.447238 [error]: RequestLine Error
+2024-11-14 10:48:20.447990 [info] : client[21] quit!
+2024-11-14 10:48:20.448082 [info] : Client[21](127.0.0.1:54916) quit, userCount:4
+2024-11-14 10:48:20.539515 [info] : Client[21](127.0.0.1:59535) in, userCount:5
+2024-11-14 10:48:20.539584 [info] : Client[21] in!
+2024-11-14 10:48:20.543576 [info] : Client[22](127.0.0.1:60047) in, userCount:6
+2024-11-14 10:48:20.543639 [info] : Client[22] in!
+2024-11-14 10:48:25.814534 [info] : client[22] quit!
+2024-11-14 10:48:25.814915 [info] : Client[22](127.0.0.1:60047) quit, userCount:5
+2024-11-14 10:50:29.585454 [info] : =========== Server init ===========
+2024-11-14 10:50:29.585480 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:50:29.585485 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:50:29.585488 [info] : LogSys level: 1
+2024-11-14 10:50:29.585491 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:50:29.585493 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:50:29.585496 [info] : ========== Server start ==========
+2024-11-14 10:50:37.589500 [info] : Client[21](127.0.0.1:35979) in, userCount:1
+2024-11-14 10:50:37.589580 [info] : Client[21] in!
+2024-11-14 10:50:37.788232 [info] : Client[22](127.0.0.1:38539) in, userCount:2
+2024-11-14 10:50:37.788393 [info] : Client[22] in!
+2024-11-14 10:50:37.788613 [info] : Client[23](127.0.0.1:42635) in, userCount:3
+2024-11-14 10:50:37.788654 [info] : Client[23] in!
+2024-11-14 10:50:37.788669 [info] : Client[24](127.0.0.1:44683) in, userCount:4
+2024-11-14 10:50:37.788675 [info] : Client[24] in!
+2024-11-14 10:50:37.788688 [info] : Client[25](127.0.0.1:47755) in, userCount:5
+2024-11-14 10:50:37.788768 [info] : Client[25] in!
+2024-11-14 10:50:37.788800 [info] : Client[26](127.0.0.1:49803) in, userCount:6
+2024-11-14 10:50:37.788809 [info] : Client[26] in!
+2024-11-14 10:51:11.232096 [info] : Verify name:wjj pwd:wjj
+2024-11-14 10:51:11.248589 [error]: RequestLine Error
+2024-11-14 10:51:11.249136 [info] : client[26] quit!
+2024-11-14 10:51:11.249272 [info] : Client[26](127.0.0.1:49803) quit, userCount:5
+2024-11-14 10:51:11.334940 [info] : Client[26](127.0.0.1:3716) in, userCount:6
+2024-11-14 10:51:11.335129 [info] : Client[26] in!
+2024-11-14 10:51:16.335957 [info] : client[26] quit!
+2024-11-14 10:51:16.343939 [info] : Client[26](127.0.0.1:3716) quit, userCount:5
+2024-11-14 10:52:11.339455 [info] : client[26] quit!
+2024-11-14 10:52:11.339603 [info] : client[21] quit!
+2024-11-14 10:52:11.339688 [info] : Client[21](127.0.0.1:35979) quit, userCount:4
+2024-11-14 10:52:11.339693 [info] : client[23] quit!
+2024-11-14 10:52:11.339707 [info] : Client[23](127.0.0.1:42635) quit, userCount:3
+2024-11-14 10:52:11.339710 [info] : client[25] quit!
+2024-11-14 10:52:11.339721 [info] : Client[25](127.0.0.1:47755) quit, userCount:2
+2024-11-14 10:52:11.339724 [info] : client[24] quit!
+2024-11-14 10:52:11.339735 [info] : Client[24](127.0.0.1:44683) quit, userCount:1
+2024-11-14 10:52:11.340807 [info] : client[22] quit!
+2024-11-14 10:56:33.702746 [info] : =========== Server init ===========
+2024-11-14 10:56:33.702771 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:56:33.702776 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:56:33.702779 [info] : LogSys level: 1
+2024-11-14 10:56:33.702781 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:56:33.702871 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:56:33.702877 [info] : ========== Server start ==========
+2024-11-14 10:56:40.568941 [info] : Client[21](127.0.0.1:26335) in, userCount:1
+2024-11-14 10:56:40.569249 [info] : Client[21] in!
+2024-11-14 10:56:40.741096 [info] : Client[22](127.0.0.1:29919) in, userCount:2
+2024-11-14 10:56:40.742039 [info] : Client[22] in!
+2024-11-14 10:56:40.742129 [info] : Client[23](127.0.0.1:34015) in, userCount:3
+2024-11-14 10:56:40.742137 [info] : Client[23] in!
+2024-11-14 10:56:40.742140 [info] : Client[24](127.0.0.1:34527) in, userCount:4
+2024-11-14 10:56:40.742142 [info] : Client[24] in!
+2024-11-14 10:56:40.742146 [info] : Client[25](127.0.0.1:36063) in, userCount:5
+2024-11-14 10:56:40.742149 [info] : Client[25] in!
+2024-11-14 10:56:40.742152 [info] : Client[26](127.0.0.1:36575) in, userCount:6
+2024-11-14 10:56:40.742154 [info] : Client[26] in!
+2024-11-14 10:56:40.802521 [info] : client[26] quit!
+2024-11-14 10:56:40.802626 [info] : Client[26](127.0.0.1:36575) quit, userCount:5
+2024-11-14 10:56:42.455472 [info] : Client[26](127.0.0.1:39647) in, userCount:6
+2024-11-14 10:56:42.455566 [info] : Client[26] in!
+2024-11-14 10:56:48.025488 [info] : Verify name:wjj pwd:wjj
+2024-11-14 10:56:48.035478 [error]: RequestLine Error
+2024-11-14 10:56:48.035842 [info] : client[22] quit!
+2024-11-14 10:56:48.036113 [info] : Client[22](127.0.0.1:29919) quit, userCount:5
+2024-11-14 10:56:48.065497 [info] : Client[22](127.0.0.1:22700) in, userCount:6
+2024-11-14 10:56:48.065525 [info] : Client[22] in!
+2024-11-14 10:57:48.103281 [info] : client[22] quit!
+2024-11-14 10:57:48.103533 [info] : Client[22](127.0.0.1:22700) quit, userCount:5
+2024-11-14 10:57:48.103563 [info] : client[21] quit!
+2024-11-14 10:57:48.103582 [info] : Client[21](127.0.0.1:26335) quit, userCount:4
+2024-11-14 10:57:48.103585 [info] : client[24] quit!
+2024-11-14 10:57:48.103596 [info] : Client[24](127.0.0.1:34527) quit, userCount:3
+2024-11-14 10:57:48.103598 [info] : client[23] quit!
+2024-11-14 10:57:48.103608 [info] : Client[23](127.0.0.1:34015) quit, userCount:2
+2024-11-14 10:57:48.103611 [info] : client[25] quit!
+2024-11-14 10:57:48.103619 [info] : Client[25](127.0.0.1:36063) quit, userCount:1
+2024-11-14 10:57:48.103621 [info] : client[26] quit!
+2024-11-14 10:58:45.510059 [info] : =========== Server init ===========
+2024-11-14 10:58:45.510083 [info] : Port:6699, OpenLinger: false
+2024-11-14 10:58:45.510088 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-14 10:58:45.510091 [info] : LogSys level: 1
+2024-11-14 10:58:45.510093 [info] : srcDir: /home/wjj/桌面/MyWebServer/resources/
+2024-11-14 10:58:45.510213 [info] : SqlConnPool num: 15, ThreadPool num: 6
+2024-11-14 10:58:45.510220 [info] : ========== Server start ==========
+2024-11-14 10:59:02.634913 [info] : Client[21](192.168.3.173:51931) in, userCount:1
+2024-11-14 10:59:02.635156 [info] : Client[21] in!
+2024-11-14 10:59:02.635255 [info] : Client[22](192.168.3.173:63207) in, userCount:2
+2024-11-14 10:59:02.635296 [info] : Client[22] in!
+2024-11-14 10:59:02.684621 [info] : Client[23](192.168.3.173:4837) in, userCount:3
+2024-11-14 10:59:02.684772 [info] : Client[23] in!
+2024-11-14 10:59:02.685354 [info] : Client[24](192.168.3.173:61416) in, userCount:4
+2024-11-14 10:59:02.685420 [info] : Client[24] in!
+2024-11-14 10:59:02.685442 [info] : Client[25](192.168.3.173:34006) in, userCount:5
+2024-11-14 10:59:02.685450 [info] : Client[25] in!
+2024-11-14 10:59:02.685748 [info] : Client[26](192.168.3.173:48357) in, userCount:6
+2024-11-14 10:59:02.685761 [info] : Client[26] in!
+2024-11-14 10:59:15.174859 [info] : Verify name:wjj pwd:wjj
+2024-11-14 10:59:15.185843 [error]: RequestLine Error
+2024-11-14 10:59:15.186210 [info] : client[24] quit!
+2024-11-14 10:59:15.186440 [info] : Client[24](192.168.3.173:61416) quit, userCount:5
